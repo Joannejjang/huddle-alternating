@@ -1,0 +1,250 @@
+body {
+  font-size: 18px;
+  text-align: center;
+  margin: 0;
+}
+
+a {
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2rem;
+  text-align: center;
+  width: 95%;
+}
+
+footer {
+  background-color: hsl(192, 100%, 9%);
+  margin: 0;
+}
+
+.top-container {
+  background-color: hsl(193, 100%, 96%);
+  background-image: url("images/bg-hero-desktop.svg");
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: left;
+  padding: 30px;
+}
+
+.box {
+  flex: 1;
+}
+
+.left {
+  padding: 50px;
+}
+
+.h1-top {
+  font-size: 2.5rem;
+  font-family: 'Poppins', sans-serif;
+  padding-top: 125px;
+}
+
+.p-top {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.5;
+  padding-bottom: 20px;
+}
+
+.Get-Started {
+  -webkit-border-radius: 28px;
+  -moz-border-radius: 28px;
+  border-radius: 28px;
+  height: 16px;
+  line-height: 16px;
+  color: #FFFFFF;
+  font-family: 'Open Sans', sans-serif;
+  width: 230px;
+  font-size: 15px;
+  font-weight: 200;
+  padding: 18px;
+  background-color: #FF52BF;
+  box-shadow: 1px 1px 20px 0 hsl(208, 11%, 55%);
+  -webkit-box-shadow: 1px 1px 20px 0 hsl(208, 11%, 55%);
+  -moz-box-shadow: 1px 1px 20px 0 hsl(208, 11%, 55%);
+  border: solid #337FED 0px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.right {
+  padding: 50px;
+  text-align: right;
+}
+
+.TryIt {
+  -webkit-border-radius: 28px;
+  -moz-border-radius: 28px;
+  border-radius: 28px;
+  height: 16px;
+  line-height: 16px;
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  width: 180px;
+  font-size: 15px;
+  font-weight: 200;
+  padding: 18px;
+  background-color: white;
+  box-shadow: 1px 1px 20px 0px hsl(208, 11%, 55%);
+  -webkit-box-shadow: 1px 1px 20px 0 hsl(208, 11%, 55%);
+  -moz-box-shadow: 1px 1px 20px 0 hsl(208, 11%, 55%);
+  border: solid #337FED 0;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.screen {
+  padding-top: 40px;
+  width: 750px;
+}
+
+.middle-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.mbox {
+  align-items: center;
+  box-shadow: 2px 8px 14px 0px hsla(229, 6%, 66%, 0.6);
+  border-radius: 8px;
+  width: 1200px;
+  height: 380px;
+  margin: 2rem 2rem;
+}
+
+.h2-mbox {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2rem;
+  padding-top: 50px;
+  padding-left: 45px;
+  text-align: left;
+}
+
+.p-mbox {
+  color: hsl(208, 11%, 55%);
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  padding-top: 10px;
+  padding-left: 45px;
+  text-align: left;
+  width: 95%;
+}
+
+.img-right {
+  float: right;
+  width: 38%;
+  padding: 0 10px 0 90px;
+}
+
+.img-left {
+  float: left;
+  width: 38%;
+  padding: 0 90px 0 10px;
+}
+
+.lbox {
+  align-items: center;
+  background-color: white;
+  box-shadow: 2px 8px 14px 0px hsla(229, 6%, 66%, 0.6);
+  border-radius: 8px;
+  width: 800px;
+  height: 280px;
+  margin-bottom: -100px;
+  margin-top: 100px;
+  text-align: center;
+}
+
+.h2-lbox {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2rem;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.last-container {
+  padding: 200px 70px 20px 70px;
+  background-color: hsl(192, 100%, 9%);
+  text-align: left;
+  align-items: center;
+}
+
+.logobt {
+  text-align: left;
+  padding-bottom: 20px;
+  width: 15%;
+}
+
+.p-lb-one {
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: .7rem;
+  line-height: .8rem;
+  padding-top: 10px;
+  padding-left: 45px;
+  text-align: left;
+  width: 40%;
+}
+
+.lbimg {
+  float: left;
+  width: 2.5%;
+  padding-top: 12px;
+}
+
+.lastboxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.lastbox {
+  flex: 1;
+}
+
+.one {
+  flex-grow: 3.5;
+}
+
+.p-lb-small {
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: .7rem;
+  line-height: 3;
+  padding-top: 10px;
+  padding-left: 45px;
+  text-align: left;
+  width: 70%;
+}
+.brand{
+  width: 40%;
+  padding : 20px 50px;
+}
+.p-lb-copy {
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: .7rem;
+  line-height: 3;
+  padding-top: 20px;
+  padding-left: 1100px;
+  text-align: left;
+}
+
+.attribution {
+  background-color: hsl(192, 100%, 9%);
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2rem;
+  margin: 0;
+  text-align: center;
+  width: 95%;
+}
